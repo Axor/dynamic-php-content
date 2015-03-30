@@ -1,7 +1,6 @@
 # gusdiaz.me
-This is my personal web page, I'd want have a nice Website where my clients or employers could reach me 
-and have a perspective of my professional career.
+This is the first version of my personal website. I used in first instance dynamic content with PHP. But I moved the design to just one unique page in HTML5. 
 
-You can freely use this template as you wish. Thanks for passing by.
+I leave this for future and teaching porpuses.
 
 — @gus_diaz
