@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Gustavo Díaz</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+
+  <body>
+    <!-- Nav-bar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Gustavo Díaz</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="http://grandecabeza.wordpress.com">Blog</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">EN <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">ES</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1 id="front-tittle">Gustavo Díaz</h1>
+        <p>Web Application Developer</p>
+        <p><a class="btn btn-primary btn-lg" href="about.php" role="button">Learn More</a></p>
+      </div>
+    </div>
+    
+    <div class="wid-content">
+        <div class="container">
+            <h1>What I do</h1>
+            <p>I love the internet, I think the internet is the best tool ever made. So I dedicate almost all my time to understand and learn the tools inside the web.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                      <img alt="JavaScript" src="images/js-128.png"/>
+                    </div>
+                    <div class="thumbnail">
+                      <img alt="Device Access" src="images/php-128.png"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                      <img alt="HTML5 Semantics" src="images/HTML5_Semantics_128.png"/>
+                    </div>
+                    <div class="thumbnail">
+                      <img alt="CSS" src="images/HTML5_Styling_128.png"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                      <img id="img-cent" alt="HTML5" src="images/HTML5_Logo_256.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="learn-more">
+      <div class="container">
+      </div>
+    </div>
+
+    <!-- likes-content -->
+    <div class="likes-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i style="color:rgb(51, 122, 183)" class="fa fa-book fa-stack-1x"></i>
+            </span>
+            <h3>
+              I Blog
+            </h3>
+            <p>I have a personal blog, I post things like lifehacker tips, code, opinions and experiences. </p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i style="color:rgb(51, 122, 183)" class="fa fa-code fa-stack-1x"></i>
+            </span>
+            <h3>
+              I Code
+            </h3>
+            <p>I am developer, learning things everyday. I work mostly times on Web Projects.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i style="color:rgb(51, 122, 183)" class="fa fa-gamepad fa-stack-1x"></i>
+            </span>
+            <h3>
+              I Play
+            </h3>
+            <p>One of my greatest passions are videogames. I am a great fan of FPS and Strategy genres. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                  <div class="thumbnail">
+                    <img class="about-image" src="images/gus.jpeg" alt="Gustavo's image">
+                  </div>
+                </div>
+                <div class="col-md-6 col-md-offset-1">
+                  <h2>Hi! I'm Gustavo Díaz...</h2>
+                  <p class="about-text"><span class="dev">I'm a Web Developer</span> Living in Guadalajara, Jalisco, México. I have worked as Consultant and recently I have been focusing in personal projects for web-based mobile apps. </p>
+                  <p>Currently I'm working on providing code solutions and database maintenance on IBM. I always maintain the professionalism, responsibility, and honesty in every project and objective.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>My Skills</h2>
+              <p>I am a developer focused in Web Technologies. Most of my vocational education is aimed to developing web-based solutions.</p>
+              <p>During college, I specialized in two software branches:</p>
+              <ul class="list-unstyled">
+                <li class="lead"><i class="fa fa-database"></i>   Web DataBases</li>
+                <li class="lead"><i class="fa fa-file-code-o"></i>    Application Developing</li>
+              </ul>
+              <p>Feel free to check my resume and if you need to contact me, go <a href="contact.html">here.</a></p>
+              <p>
+                <!-- <a href="#"> -->
+                  <button type="button" class="btn btn-primary btn-lg btn-block disabled">Download CV</button>
+                <!-- </a> -->
+              </p>
+            </div>
+            <div class="col-md-6">
+              <h2>Programming Languages</h2>
+              <p>
+                <span class="label label-info">HTML</span>
+                <span class="label label-warning">CSS</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    90%
+                  </div>
+                </div>
+              </p>
+              <p>
+                <span class="label label-info">JavaScript</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                    65%
+                  </div>
+                </div>
+              </p>
+              <p>
+                <span class="label label-default">PHP</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                    75%
+                  </div>
+                </div>
+              </p>
+              <p>
+                <span class="label label-info">MySQL</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                    80%
+                  </div>
+                </div>
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-contact">
+      <div class="contact-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 id="contact-title">CONTACT ME</h1>
+              <p>If you have any inquiry, please send me a message and I will contact you as soon as I can.</p>
+            </div>
+            <div class="col-md-6">
+              <form role="form" name="contact-form" action="php/send-mail.php" method="post" >
+            <div class="well well-sm">
+              <strong><i class="fa fa-check"></i> Required Field</strong>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <input type="text" class="form-control" name="firstName" placeholder="Name" required>
+                <span class="input-group-addon"><i class="fa fa-check"></i></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <input type="text" class="form-control" name="lastName" placeholder="Last Name" required>
+                <span class="input-group-addon"><i class="fa fa-check"></i></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <input type="email" class="form-control" name="emailAddress" placeholder="E-Mail" required>
+                <span class="input-group-addon"><i class="fa fa-check"></i></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Message:</label>
+              <div class="input-group">
+                <textarea class="form-control" rows="5" name="messageContent" style="resize:none" required></textarea>
+                <span class="input-group-addon"><i class="fa fa-check"></i></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-info btn-lg text-uppercase"><i class="fa fa-paper-plane-o"></i>Send Message</button>
+            </div>
+          </form>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <?php
+      include 'php/footer.php';
+    ?>
+  </body>
+
+  <!-- Google Analitycs -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-60683136-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!-- jQuery library from Google APIS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- My Bootstrap JS -->
+  <script src="js/bootstrap.js"></script>
+  <script>
+    $('.dropdown-toggle').dropdown();
+  </script>
+</html>
